@@ -1,6 +1,6 @@
 
 // Add a simple greeting function
-=======
+
 // Existing greeting function
 
 function sayHello(name) {
@@ -10,7 +10,7 @@ function sayHello(name) {
 
 // Example usage:
 sayHello('Developer');
-=======
+
 // ✨ NEW FEATURE: User Profile Manager
 // Handles user status tracking and personalized greetings
 const userManager = {
