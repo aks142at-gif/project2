@@ -43,4 +43,4 @@ const userManager = {
 userManager.addUser('Alex', 'Lead Admin');
 userManager.addUser('Sam', 'Contributor');
 userManager.listUsers();
->>>>>>> features
+
