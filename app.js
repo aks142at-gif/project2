@@ -44,3 +44,20 @@ userManager.addUser('Alex', 'Lead Admin');
 userManager.addUser('Sam', 'Contributor');
 userManager.listUsers();
 
+
+//adding a button to the page
+const button = document.createElement('button');
+button.textContent = 'Add New User';
+button.style.marginTop = '20px';
+button.onclick = () => {
+  const name = prompt('Enter user name:');
+  const role = prompt('Enter user role (default is Developer):') || 'Developer';
+  if (name) {
+    userManager.addUser(name, role);
+    userManager.listUsers();
+  } else {
+    console.log('User name cannot be empty.');
+  }
+};
+
+document.body.appendChild(button);
